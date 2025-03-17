@@ -25,6 +25,7 @@ body{
     margin-right: 135px;
     
     
+    
 }
 
 
@@ -257,21 +258,186 @@ select{
 
 }
 
+/* Why choose us Style */
+
+.two{
+    max-width: 573px;
+    max-height: 284px;
+    background-color: rgba(41, 206, 246, 0.05);
+    padding: 30px;
+    border: none;
+    border-radius: 16px;
+    padding-left: 40px;
+}
+
+.one{
+    max-width: 573px;
+    max-height: 284px;
+    background-color: rgba(251, 181, 99, 0.2);
+    padding: 30px;
+    border: none;
+    border-radius: 16px;
+    padding-left: 40px;
+}
+
+.three{
+    max-width: 573px;
+    max-height: 284px;
+    background-color: rgba(251, 181, 99, 0.2);
+    padding: 30px;
+    border: none;
+    border-radius: 16px;
+    padding-left: 40px;
+}
+
+.us-title{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.us-desc{
+    font-size: 1rem;
+    color: #5A5A5D;
+    font-weight: 400;
+    padding-right: 65px;
+}
+
+.one-two{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+.us-section{
+     
+}
+
+.again{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.center{
+    text-align: center;
+}
 
 
 
+/* Deal Section Style */
 
+.deal-section{
+    margin-top: 100px;
+    
+}
 
+.first-bg{
+    background: url(/Images/Group\ 39.png);
+    max-height: 500px;
+    border-radius: 16px;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    max-width: 1460px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 
+    justify-content: end;
+    
+}
+.third-bg{
+    background: url(/Images/Group\ 39.png);
+    max-height: 500px;
+    border-radius: 16px;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    max-width: 1460px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 
+    justify-content: end;
+}
 
+.second-bg{
+    background: url(/Images/Group\ 40.png);
+    max-height: 500px;
+    border-radius: 16px;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    max-width: 1460px;
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 
+    justify-content: end;
+    
+}
 
+.agni{
+    background-color: rgba(255, 255, 255, 0.8);
+    max-height: 389px;
+    max-width: 579px;
+    padding: 50px;
+    border: none;
+    border-radius: 16px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    margin-right: 55px;
+    margin-left: 55px;
+    
+}
 
+.date{
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+}
 
+.tour-desc{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5A5A5D;
+    max-width: 452px;
+    
+}
+.tour-title{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
 
+.p-btn-new{
+    background-color: #FF5400;
+ font-size: 1rem;
+ font-weight: 700;
+ max-width: 150px;
+ max-height: 52px;
+ justify-content: center;
+ align-items: center;
+ gap: 5px;
+ border: none;
+ border-radius: 8px;
+ color: white;
+ text-align: center;
+ padding: 14px 25px 14px 25px;
+}
 
-
+.tour-price{
+    color: #FF5400;
+    font-weight: 800;
+    font-size: 1.1rem;
+}
 
 
 
@@ -388,5 +554,23 @@ select{
         margin: 0 auto;
         
     }
-
+    
+    .one-two{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .again{
+        margin: 0px;
+        
+        max-height: 297px;
+        
+        
+    }
+    .first-bg, .second-bg, .third-bg{
+        justify-content: center;
+        align-items: center;
+    }
+    .date{
+        flex-direction: row;
+        
+    }
 }
