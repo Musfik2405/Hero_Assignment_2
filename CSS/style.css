@@ -504,7 +504,8 @@ select{
 
 .het{
     max-width: 350px;
-    margin-bottom: 48px;
+    margin-bottom: 18px;
+    margin-top: 0px;
 }
 
 .name-input{
@@ -523,6 +524,8 @@ select{
     padding: 34px;
     border-radius: 8px;
     max-width: 393px;
+    max-height: 380px;
+    padding-bottom: 0px;
 }
 
 .Sub-btn{
@@ -569,17 +572,37 @@ select{
 
 }
 
+.hb{
+    font-size: 1.4rem;
+}
 
 
+/* footer Section Style */
+
+.hf{
+   
+}
+
+.social-icons{
+    display: grid;
+    grid-template-columns: repeat(4,0fr);
+    justify-content: center;
+    align-items: center;
+    gap:32px;
+    margin-bottom: 100px;
+}
 
 
+.amt{
+    font-size: 1rem;
+    padding-bottom: 50px;
+}
 
-
-
-
-
-
-
+.footer{
+    background-color: rgba(19, 19, 24, 0.05);
+    margin-left: 0px;
+    margin-right: 0px;
+}
 
 
 
@@ -701,8 +724,9 @@ select{
     .again{
         margin: 0px;
         
-        max-height: 297px;
-        max-width: 300px;
+        /* max-height: 297px;
+        max-width: 300px; */
+        margin-top: -20px;
         
         
     }
@@ -713,5 +737,49 @@ select{
     .date{
         flex-direction: row;
         
+    }
+
+    .last-main{
+        flex-direction: column-reverse;
+    }
+
+    .last-one{
+        width: 100%;
+        border-radius: 16px;
+    }
+    .hg{
+        font-size: 1.9rem;
+    }
+
+    .save-section{
+        flex-direction: column;
+    }
+
+    .name-input{
+        max-width: 288px;
+        padding: 16px 130px 16px 20px;
+    }
+
+    .Sub-btn{
+        padding: 14px 136px;
+        margin-bottom: 30px;
+    }
+    .save-con{
+        margin-bottom: 40px;
+    }
+
+    .tj{
+        width: 100%;
+        
+    }
+
+    .red-co{
+        transform: translateY(-110px) translateX(140px) rotate(-35deg);
+    }
+    
+
+    
+    .save-section{
+        margin-top: 50px;
     }
 }
