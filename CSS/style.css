@@ -381,7 +381,7 @@ select{
     background-attachment: fixed;
     background-size: cover;
 
-    justify-content: end;
+    justify-content: start;
     
 }
 
@@ -438,6 +438,144 @@ select{
     font-weight: 800;
     font-size: 1.1rem;
 }
+
+.middle-btn{
+    text-align: center;
+}
+
+/* last main section */
+
+
+.last-main{
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+
+.last-img{
+    width: 100%;
+    height: 424px;
+    width: 610px;
+}
+.last-title{
+ text-align: center;
+ font-size: 1.5rem;
+ font-weight: 700;
+ color: white;
+ justify-content: center;
+ align-items: center;
+ padding-top: 176px;
+ 
+}
+
+.last-desc{
+    color: #5A5A5D;
+    font-size: 1rem;
+}
+
+.last-li{
+    color: #131318;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.last-ul{
+    padding-left: 20px;
+}
+
+.extra-m{
+    margin-top: 20px;
+}
+
+
+.last-one{
+    background-image: url(/Images/Group\ 40089.png);
+    height: 424px;
+    width: 610px;
+}
+
+/* save section */
+
+.save-section{
+    margin-top: 200px;
+    justify-content: space-between;
+}
+
+.het{
+    max-width: 350px;
+    margin-bottom: 48px;
+}
+
+.name-input{
+    background-color: rgba(19, 19, 24, 0.05);
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    padding: 16px 170px 16px 20px;
+    margin-bottom: 16px;
+    color: rgba(19, 19, 24, 0.3);
+
+}
+
+.save-con{
+    border: 0.5px solid #FF5400;
+    padding: 34px;
+    border-radius: 8px;
+    max-width: 393px;
+}
+
+.Sub-btn{
+    background-color: #FF5400;
+    font-size: 1rem;
+    font-weight: 700;
+    max-width: 393px;
+    max-height: 52px;
+    justify-content: center;
+    align-items: center;
+    
+    border: none;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    padding: 14px 157px;
+}
+
+.red-co{
+   background-color: #FF5400;
+   color: white;
+   max-width: 324px;
+   max-height: 120px;
+   text-align: center;
+   border-radius: 8px;
+
+   transform: translate(440px) translateY(-120px) rotate(-45deg);
+  
+   transform-origin: bottom left;
+   
+   
+}
+
+.travel-title{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 0px;
+}
+
+.travel{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0px;
+
+}
+
+
+
+
+
+
+
+
 
 
 
